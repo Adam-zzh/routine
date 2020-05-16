@@ -96,5 +96,8 @@ a{
 	font-size: 14px;
 }
 .menu_user{
-	width: 150px;
+	width: 160px;
+}
+.dropdown-menu{
+	z-index: 9999;
 }

@@ -94,8 +94,9 @@ a{
 	float: right;
 	font-size: 14px;
 }
-.menu_user{
-	width: 160px;
+
+.dropdown-toggle{
+	height: 50px;
 }
 .dropdown .icon-font{
 	font-size: 18px;
@@ -118,4 +119,21 @@ a{
 	height: 12px;
 	line-height: 12px;
 	border-radius: 4px;
+}
+.menu_user .dropdown-toggle{
+	width: 170px;
+	padding: 5px 15px 5px 15px;
+	display: flex;
+	justify-content: center;
+}
+.menu_user .user-img{
+	border-radius: 50%;
+}
+.menu_user .username{
+	margin-left: 4px;
+	letter-spacing: 1px;
+	width: 98px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
 }

@@ -4,9 +4,12 @@
 <head>
     <title>登录页面</title>
     <link rel="icon" href="./static/picture/login.ico" type="image/x-icon" />
+    <meta charset='UTF-8'>
     <link rel="stylesheet" type="text/css" href="./static/css/login.css">
+    <link rel="stylesheet" href="static/css/modules/font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="./static/js/modules/jquery.min.js"></script>
     <script src="./static/js/login.js"></script>
+	
 </head>
 
 <body>
@@ -21,11 +24,12 @@
 						<div class="form_input">
 							<label>用户名：</label>
 							<input type="text" name="username" placeholder="请输入用户名" />
+							<a id="icon_username" href="javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a>
 						</div>
-						<div class="form_input" style="position: relative;">
+						<div class="form_input">
 							<label>密码：</label>
 							<input id="password" type="password" name="password" placeholder="请输入密码" />
-							<img id="eye" οnclick="showHidePsw()" src="./static/picture/invisible.jpg">
+							<a id="icon_password" href="javascript:showHidePsw()"><i class="fa fa-eye" aria-hidden="true"></i></a>
 						</div>
 						<div id="button">
 							<button class="button" id="signin">登录</button>

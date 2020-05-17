@@ -117,12 +117,17 @@ input[id="password2"]{
     background-repeat: no-repeat;
     background-position: right center;
 } */
-.form_input img#eye{
+.form_input{
+    position: relative;
+}
+.form_input #icon_password,.form_input #icon_username{
     position: absolute;
     right: 5px;
+    margin-top: 7px;
+    display: inline-block;
     width: 15px;
     height: 15px;
-    margin-top: 8px;
+    color: #000;
 }
 
 .button {
